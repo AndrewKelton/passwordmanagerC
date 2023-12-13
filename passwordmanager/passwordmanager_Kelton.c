@@ -38,7 +38,7 @@ void clearBuffer();
 // main function
 int main()
 {
-    account_t *user = malloc(sizeof(account_t) * LIMIT);
+    account_t * user = malloc(sizeof(account_t) * LIMIT);
     int currentsize = 0;
 
     openFile(user, &currentsize); // call openfile
